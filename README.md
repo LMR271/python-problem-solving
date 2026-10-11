@@ -35,6 +35,6 @@ Unsolved problems show up as **skipped** ("not solved yet"), so the test suite s
 
 | #   | Problem                                          | Pattern       | Difficulty | Status |
 | --- | ------------------------------------------------ | ------------- | ---------- | ------ |
-| 001 | [Top-k Words](problems/001-top-k-words)          | Hash map      | Easy       | ⬜      |
+| 001 | [Top-k Words](problems/001-top-k-words)          | Hash map      | Easy       | ✅     |
 | 002 | [Balanced Brackets](problems/002-balanced-brackets) | Stack      | Easy       | ⬜      |
 | 003 | [Clean Palindrome](problems/003-clean-palindrome) | Two pointers | Easy       | ⬜      |
