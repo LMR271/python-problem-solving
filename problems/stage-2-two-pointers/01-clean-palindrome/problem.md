@@ -1,4 +1,4 @@
-# 003 · Clean Palindrome
+# 2.1 · Clean Palindrome
 
 **Pattern:** two pointers (two indices that walk through a sequence, here from both ends toward the middle)
 **Difficulty:** Easy
@@ -33,5 +33,5 @@ is_clean_palindrome("!!")                               # True   nothing left af
 ## Run the tests
 
 ```bash
-pytest problems/003-clean-palindrome -v
+pytest problems/stage-2-two-pointers/01-clean-palindrome -v
 ```

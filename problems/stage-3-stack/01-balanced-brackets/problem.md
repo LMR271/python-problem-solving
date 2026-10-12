@@ -1,4 +1,4 @@
-# 002 · Balanced Brackets
+# 3.1 · Balanced Brackets
 
 **Pattern:** stack (a list where you only add and remove at the end, last in, first out)
 **Difficulty:** Easy
@@ -38,5 +38,5 @@ is_balanced("")            # True
 ## Run the tests
 
 ```bash
-pytest problems/002-balanced-brackets -v
+pytest problems/stage-3-stack/01-balanced-brackets -v
 ```

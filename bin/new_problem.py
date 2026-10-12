@@ -1,10 +1,15 @@
-"""Scaffold a new problem folder.
+"""Scaffold a new problem folder inside a stage.
 
 Usage:
-    python bin/new_problem.py 004 two-sum
+    python bin/new_problem.py <stage-folder> <number> <slug>
 
-Creates problems/004-two-sum/ with problem.md, two_sum.py,
-test_two_sum.py and notes.md. Existing files are never overwritten.
+Example:
+    python bin/new_problem.py stage-2-two-pointers 02 two-sum-sorted
+
+Creates problems/stage-2-two-pointers/02-two-sum-sorted/ with problem.md,
+two_sum_sorted.py, test_two_sum_sorted.py and notes.md.
+Existing files are never overwritten. Module names must be unique across
+the whole repo, because pytest imports every test file side by side.
 """
 
 import sys
@@ -14,24 +19,32 @@ ROOT = Path(__file__).resolve().parent.parent
 
 NOTES = """# Notes · {title}
 
+## Key idea (one line)
+The sentence I'd say to recall the whole solution.
+
+## Pattern trigger
+"When I see ..., I think ..."
+
 ## Approach
 How I solved it, in 2 to 4 sentences.
 
 ## Complexity
-- Time: O(?)
-- Space: O(?)
+- Time: O(?) because ...
+- Space: O(?) because ...
 
-## What tripped me up
+## Bug I made / what tripped me up
+
+
+## Alternative I read afterwards
 
 
 ## Hints used
 0 / 1 / 2 / 3
 """
 
-PROBLEM = """# {number} · {title}
+PROBLEM = """# {title}
 
-**Pattern:**
-**Difficulty:**
+**Stage:** {stage} · **Difficulty:** · **New concept:**
 
 ## Task
 
@@ -45,10 +58,27 @@ PROBLEM = """# {number} · {title}
 
 1.
 
+## Hints
+
+<details>
+<summary>Hint 1 · a nudge</summary>
+
+</details>
+
+<details>
+<summary>Hint 2 · the tool</summary>
+
+</details>
+
+<details>
+<summary>Hint 3 · pseudocode</summary>
+
+</details>
+
 ## Run the tests
 
 ```bash
-pytest problems/{folder} -v
+pytest {path} -v
 ```
 """
 
@@ -65,17 +95,28 @@ def test_example():
 
 
 def main() -> None:
-    if len(sys.argv) != 3:
+    if len(sys.argv) != 4:
         sys.exit(__doc__)
 
-    number, slug = sys.argv[1].zfill(3), sys.argv[2].lower()
-    folder = f"{number}-{slug}"
-    module = slug.replace("-", "_")
-    title = slug.replace("-", " ").title()
-    values = dict(number=number, title=title, folder=folder, module=module)
+    stage, number, slug = sys.argv[1], sys.argv[2].zfill(2), sys.argv[3].lower()
+    stage_dir = ROOT / "problems" / stage
+    if not stage_dir.is_dir():
+        sys.exit(f"Unknown stage folder: {stage}")
 
-    target = ROOT / "problems" / folder
-    target.mkdir(parents=True, exist_ok=True)
+    module = slug.replace("-", "_")
+    clash = [p for p in (ROOT / "problems").rglob(f"{module}.py")]
+    if clash:
+        sys.exit(f"Module name {module}.py already exists at {clash[0].relative_to(ROOT)}")
+
+    folder = f"{number}-{slug}"
+    target = stage_dir / folder
+    target.mkdir(exist_ok=True)
+    values = dict(
+        title=slug.replace("-", " ").title(),
+        stage=stage,
+        path=f"problems/{stage}/{folder}",
+        module=module,
+    )
 
     files = {
         "problem.md": PROBLEM,

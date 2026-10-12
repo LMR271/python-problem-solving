@@ -7,6 +7,7 @@ Based on the **UMPIRE method** (a six-step routine used in interview prep: Under
 Goal: know exactly what is asked before thinking about code.
 
 - Restate the problem in one sentence, in my own words.
+- Write two edge-case tests of my own before coding (empty input, one item, duplicates, negatives).
 - Write down the **input and output types** (what goes in, what comes out).
 - Solve 2 or 3 examples **by hand, on paper**. Write down every single step I did. Those steps are the first draft of the algorithm.
 - List **edge cases** (unusual inputs that often break code): empty input, one element, duplicates, ties, negative numbers, very large input.
@@ -52,6 +53,13 @@ Goal: a solution in plain words or **pseudocode** (code-like steps without Pytho
 
 ## When stuck
 
-- Timebox about 25 minutes without progress, then ask for the next hint.
+- Open the next hint at the bottom of `problem.md` after about 15 minutes without a new idea.
 - Hint ladder: **Hint 1** a nudge, **Hint 2** the technique or data structure, **Hint 3** pseudocode.
-- Log which hints I used in `notes.md`. That is how I see progress over time.
+- After hint 3: read a solution, explain it back in my own words in `notes.md`, close it, re-implement it from a blank file, and add it to `REVIEW.md` for tomorrow.
+
+## Look back (every problem)
+
+- Fill in `notes.md`: key idea, pattern trigger, complexity with the reason, the bug I made.
+- Explain the solution out loud for 2 minutes, as if in an interview.
+- Read one alternative solution and note one idea from it.
+- Add the problem to `REVIEW.md`.

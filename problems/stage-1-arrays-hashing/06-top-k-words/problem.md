@@ -1,4 +1,4 @@
-# 001 · Top-k Words
+# 1.6 · Top-k Words
 
 **Pattern:** hash map (a `dict` that maps each key to a value, with O(1) lookup)
 **Difficulty:** Easy
@@ -44,5 +44,5 @@ top_k_words("", 3)
 ## Run the tests
 
 ```bash
-pytest problems/001-top-k-words -v
+pytest problems/stage-1-arrays-hashing/06-top-k-words -v
 ```
