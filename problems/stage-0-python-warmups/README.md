@@ -118,17 +118,17 @@ Source: [Python wiki, TimeComplexity](https://wiki.python.org/moin/TimeComplexit
 
 ## Problems
 
-| # | Problem | New concept |
-| --- | --- | --- |
-| 0.1 | [Sum a List](01-sum-list) | for loop + accumulator |
-| 0.2 | [Find the Maximum](02-find-max) | tracking the best so far |
-| 0.3 | [Count Vowels](03-count-vowels) | looping over strings, `in` |
-| 0.4 | [Reverse a String](04-reverse-string) | building a string |
-| 0.5 | [Filter Even Numbers](05-filter-evens) | building a list, `%` |
-| 0.6 | [FizzBuzz](06-fizzbuzz) | `if / elif / else` order |
-| 0.7 | [Character Frequency](07-char-frequency) | building a dict |
-| 0.8 | [Remove Duplicates](08-remove-duplicates) | sets |
-| 0.9 | [Running Sum](09-running-sum) | O(n²) vs O(n) for the same answer |
+| # | Problem | New concept | Done |
+| --- | --- | --- | --- |
+| 0.1 | [Sum a List](01-sum-list) | for loop + accumulator | ✅ |
+| 0.2 | [Find the Maximum](02-find-max) | tracking the best so far | ⬜ |
+| 0.3 | [Count Vowels](03-count-vowels) | looping over strings, `in` | ⬜ |
+| 0.4 | [Reverse a String](04-reverse-string) | building a string | ⬜ |
+| 0.5 | [Filter Even Numbers](05-filter-evens) | building a list, `%` | ⬜ |
+| 0.6 | [FizzBuzz](06-fizzbuzz) | `if / elif / else` order | ⬜ |
+| 0.7 | [Character Frequency](07-char-frequency) | building a dict | ⬜ |
+| 0.8 | [Remove Duplicates](08-remove-duplicates) | sets | ⬜ |
+| 0.9 | [Running Sum](09-running-sum) | O(n²) vs O(n) for the same answer | ⬜ |
 
 ## You're ready for stage 1 when
 

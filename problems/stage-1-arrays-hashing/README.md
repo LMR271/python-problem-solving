@@ -63,14 +63,14 @@ Result: `[("the", 2), ("and", 1), ("cat", 1)]`.
 
 ## Problems
 
-| # | Problem | Difficulty | Pattern |
-| --- | --- | --- | --- |
-| 1.1 | [Contains Duplicate](01-contains-duplicate) | Easy | seen-set |
-| 1.2 | [Valid Anagram](02-valid-anagram) | Easy | counting |
-| 1.3 | [Two Sum](03-two-sum) | Easy | complement lookup |
-| 1.4 | [Group Anagrams](04-group-anagrams) | Medium | group by key |
-| 1.5 | [Sort by Frequency](05-sort-by-frequency) | Easy | counting + sort keys |
-| 1.6 | [Top-k Words](06-top-k-words) | Medium | counting + sort keys |
+| # | Problem | Difficulty | Pattern | Done |
+| --- | --- | --- | --- | --- |
+| 1.1 | [Contains Duplicate](01-contains-duplicate) | Easy | seen-set | ⬜ |
+| 1.2 | [Valid Anagram](02-valid-anagram) | Easy | counting | ⬜ |
+| 1.3 | [Two Sum](03-two-sum) | Easy | complement lookup | ⬜ |
+| 1.4 | [Group Anagrams](04-group-anagrams) | Medium | group by key | ⬜ |
+| 1.5 | [Sort by Frequency](05-sort-by-frequency) | Easy | counting + sort keys | ⬜ |
+| 1.6 | [Top-k Words](06-top-k-words) | Medium | counting + sort keys | ✅ |
 
 1.6 is the problem you already solved. Once 1.5 is done, come back to it and re-solve it from a blank file with the one-line sort key.
 

@@ -10,3 +10,4 @@ How to use it, see "Review schedule" in [ROADMAP.md](ROADMAP.md):
 | Problem | Type | Last done | Next due | Result |
 | --- | --- | --- | --- | --- |
 | Top-k Words | re-solve | 2026-10-11 | after Sort by Frequency | |
+| Sum a List | recall | 2026-10-12 | 2026-10-19 | |

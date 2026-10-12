@@ -6,10 +6,10 @@ The full primer gets written when you reach this stage, including a short classe
 
 ## Problems
 
-| # | Problem | Difficulty | LeetCode |
-| --- | --- | --- | --- |
-| 3.1 | [Balanced Brackets](01-balanced-brackets) | Easy | 20 |
-| 3.2 | Min Stack (first class) | Medium | 155 |
-| 3.3 | Evaluate Reverse Polish Notation | Medium | 150 |
-| 3.4 | Queue using Stacks | Easy | 232 |
-| stretch | Daily Temperatures | Medium | 739 |
+| # | Problem | Difficulty | LeetCode | Done |
+| --- | --- | --- | --- | --- |
+| 3.1 | [Balanced Brackets](01-balanced-brackets) | Easy | 20 | ⬜ |
+| 3.2 | Min Stack (first class) | Medium | 155 | ⬜ |
+| 3.3 | Evaluate Reverse Polish Notation | Medium | 150 | ⬜ |
+| 3.4 | Queue using Stacks | Easy | 232 | ⬜ |
+| stretch | Daily Temperatures | Medium | 739 | ⬜ |

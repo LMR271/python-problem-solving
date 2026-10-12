@@ -12,7 +12,7 @@ A structured log of how I'm learning data structures, algorithms and problem sol
 
 | Stage | Topic | Solved |
 | --- | --- | --- |
-| 0 | [Python warm-ups and Big-O](problems/stage-0-python-warmups) | 0 / 9 |
+| 0 | [Python warm-ups and Big-O](problems/stage-0-python-warmups) | 1 / 9 |
 | 1 | [Arrays and hashing, sort keys](problems/stage-1-arrays-hashing) | 1 / 6 |
 | 2 | [Two pointers](problems/stage-2-two-pointers) | 0 / 5 |
 | 3 | [Stack](problems/stage-3-stack) | 0 / 4 |
