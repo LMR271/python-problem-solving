@@ -121,7 +121,7 @@ Source: [Python wiki, TimeComplexity](https://wiki.python.org/moin/TimeComplexit
 | # | Problem | New concept | Done |
 | --- | --- | --- | --- |
 | 0.1 | [Sum a List](01-sum-list) | for loop + accumulator | ✅ |
-| 0.2 | [Find the Maximum](02-find-max) | tracking the best so far | ⬜ |
+| 0.2 | [Find the Maximum](02-find-max) | tracking the best so far | ✅ |
 | 0.3 | [Count Vowels](03-count-vowels) | looping over strings, `in` | ⬜ |
 | 0.4 | [Reverse a String](04-reverse-string) | building a string | ⬜ |
 | 0.5 | [Filter Even Numbers](05-filter-evens) | building a list, `%` | ⬜ |

@@ -1,6 +1,8 @@
 def find_max(numbers: list[int]) -> int | None:
-    """Return the largest number in the list, or None if the list is empty.
-
-    See problem.md for the full rules.
-    """
-    raise NotImplementedError
+    if not numbers:
+        return None
+    max_so_far = numbers[0]
+    for j in numbers[1:]:
+        if j > max_so_far:
+            max_so_far = j
+    return max_so_far
