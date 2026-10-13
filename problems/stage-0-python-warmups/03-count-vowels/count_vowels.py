@@ -1,6 +1,8 @@
 def count_vowels(text: str) -> int:
-    """Return how many vowels (a, e, i, o, u) the text contains, ignoring case.
-
-    See problem.md for the full rules.
-    """
-    raise NotImplementedError
+    vowel_count = 0
+    vowel = ["a", "e", "i", "o", "u"]
+    text = text.lower()
+    for char in text:
+        if char in vowel:
+            vowel_count += 1
+    return vowel_count

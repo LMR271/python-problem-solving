@@ -12,3 +12,4 @@ How to use it, see "Review schedule" in [ROADMAP.md](ROADMAP.md):
 | Top-k Words | re-solve | 2026-10-11 | after Sort by Frequency | |
 | Sum a List | recall | 2026-10-12 | 2026-10-19 | |
 | Find the Maximum | re-solve | 2026-10-12 | 2026-10-13 | |
+| Count Vowels | recall | 2026-10-13 | 2026-10-20 | |
