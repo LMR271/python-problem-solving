@@ -1,6 +1,14 @@
 def reverse_string(text: str) -> str:
-    """Return the text reversed.
+    result = ""
+    if text == "":
+        return ""
+    else:
+        for i in text:
+            result = i + result
+    return result
 
-    See problem.md for the full rules.
-    """
-    raise NotImplementedError
+def reverse_string(text: str) -> str:
+    if text == "":
+        return ""
+    else:
+        return text[::-1]

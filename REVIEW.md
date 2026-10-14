@@ -13,3 +13,4 @@ How to use it, see "Review schedule" in [ROADMAP.md](ROADMAP.md):
 | Sum a List | recall | 2026-10-12 | 2026-10-19 | |
 | Find the Maximum | re-solve | 2026-10-12 | 2026-10-13 | |
 | Count Vowels | recall | 2026-10-13 | 2026-10-20 | |
+| Reverse a String | recall | 2026-10-14 | 2026-10-21 | |
