@@ -124,7 +124,7 @@ Source: [Python wiki, TimeComplexity](https://wiki.python.org/moin/TimeComplexit
 | 0.2 | [Find the Maximum](02-find-max) | tracking the best so far | ✅ |
 | 0.3 | [Count Vowels](03-count-vowels) | looping over strings, `in` | ✅ |
 | 0.4 | [Reverse a String](04-reverse-string) | building a string | ✅ |
-| 0.5 | [Filter Even Numbers](05-filter-evens) | building a list, `%` | ⬜ |
+| 0.5 | [Filter Even Numbers](05-filter-evens) | building a list, `%` | ✅ |
 | 0.6 | [FizzBuzz](06-fizzbuzz) | `if / elif / else` order | ⬜ |
 | 0.7 | [Character Frequency](07-char-frequency) | building a dict | ⬜ |
 | 0.8 | [Remove Duplicates](08-remove-duplicates) | sets | ⬜ |

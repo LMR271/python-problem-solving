@@ -14,3 +14,4 @@ How to use it, see "Review schedule" in [ROADMAP.md](ROADMAP.md):
 | Find the Maximum | re-solve | 2026-10-12 | 2026-10-13 | |
 | Count Vowels | recall | 2026-10-13 | 2026-10-20 | |
 | Reverse a String | recall | 2026-10-14 | 2026-10-21 | |
+| Filter Even Numbers | recall | 2026-10-15 | 2026-10-22 | |
